@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    align-self: center;
+}
+
+.gameContainer{
+    align-self: center;
+    border: solid black 1px;
+    height: 500px;
+    width: 500px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+} 
+
+.play {
+    align-self: center;
+    
+}
+
+.gameSlots {
+    text-align: center;
+    vertical-align: center;
+    font-size: 150px;
+    border: solid black 1px;
+}
